@@ -37,9 +37,17 @@
  <!--permalink: /als/v1/admin/server/--> <topicref href="devplatform/helion/admin/server/1.0index.dita" locktitle="yes" navtitle="Server Configuration -- HP Helion 1.0 Development Platform "/>
  <!--permalink: /als/v1/admin/server/aok/--> <topicref href="devplatform/helion/admin/server/1.0aok.dita" locktitle="yes" navtitle="AOK Authentication Server -- HP Helion 1.0 Development Platform "/>
  <!--permalink: /als/v1/admin/server/configuration/--> <topicref href="devplatform/helion/admin/server/1.0configuration.dita" locktitle="yes" navtitle="Detailed Configuration -- HP Helion 1.0 Development Platform "/>
- <!--permalink: /als/v1/admin/server/docker/--> <topicref href="devplatform/helion/admin/server/1.0docker.dita" locktitle="yes" navtitle="Docker and Fence -- HP Helion 1.0 Development Platform "/>
- <!--permalink: /als/v1/admin/server/logging/--> <topicref href="devplatform/helion/admin/server/1.0logging.dita" locktitle="yes" navtitle="Log Streams -- HP Helion 1.0 Development Platform "/>
- <!--permalink: /als/v1/admin/server/operations/--> <topicref href="devplatform/helion/admin/server/1.0operations.dita" locktitle="yes" navtitle="Common Server Operations -- HP Helion 1.0 Development Platform "/>
+ <topicref href="devplatform/helion/admin/server/1.0logging.dita" locktitle="yes"
+  navtitle="Log Streams -- HP Helion 1.0 Development Platform "/>
+ <!--permalink: /als/v1/admin/server/docker/-->
+ <topicref href="devplatform/helion/user/services/1.0memcached.dita" locktitle="yes"
+  navtitle="Memcached Service -- HP Helion 1.0 Development Platform "/>
+ <!--permalink: /als/v1/admin/server/logging/-->
+ <!--permalink: /als/v1/admin/server/operations/--> <topicref href="devplatform/helion/admin/server/1.0operations.dita" locktitle="yes"
+  navtitle="Common Server Operations -- HP Helion 1.0 Development Platform ">
+  <topicref href="devplatform/helion/admin/server/1.0docker.dita" locktitle="yes"
+   navtitle="Docker and Fence -- HP Helion 1.0 Development Platform "/>
+ </topicref>
  <!--permalink: /als/v1/admin/server/router/--> <topicref href="devplatform/helion/admin/server/1.0router.dita" locktitle="yes" navtitle="ALS Router -- HP Helion 1.0 Development Platform "/>
  <!--permalink: /als/v1/admin/server/upgrade/--> <topicref href="devplatform/helion/admin/server/1.0upgrade.dita" locktitle="yes" navtitle="Upgrading Application Lifecycle Service -- HP Helion 1.0 Development Platform "/>
  <!--permalink: /als/v1/user/client/--> <topicref href="devplatform/helion/user/client/1.0index.dita" locktitle="yes" navtitle="HP Helion Application Lifecycle Service Client -- HP Helion 1.0 Development Platform "/>
@@ -47,15 +55,18 @@
  <!--permalink: /als/v1/user/quick-start/--> <topicref href="devplatform/helion/user/quick-start/1.0index.dita" locktitle="yes" navtitle="Prerequisites -- HP Helion 1.0 Development Platform "/>
  <!--permalink: /als/v1/user/services/data-services/--> <topicref href="devplatform/helion/user/services/1.0data-services.dita" locktitle="yes" navtitle="Application Lifecycle Service Data Services -- HP Helion 1.0 Development Platform "/>
  <!--permalink: /als/v1/user/services/filesystem/--> <topicref href="devplatform/helion/user/services/1.0filesystem.dita" locktitle="yes" navtitle="Persistent File System -- HP Helion 1.0 Development Platform "/>
- <!--permalink: /als/v1/user/services/memcached/--> <topicref href="devplatform/helion/user/services/1.0memcached.dita" locktitle="yes" navtitle="Memcached Service -- HP Helion 1.0 Development Platform "/>
+ <!--permalink: /als/v1/user/services/memcached/-->
  <!--permalink: /als/v1/user/services/port-service/--> <topicref href="devplatform/helion/user/services/1.0port-service.dita" locktitle="yes" navtitle="Port Service (Harbor) -- HP Helion 1.0 Development Platform "/>
  <!--permalink: /als/v1/user/services/user-provided/--> <topicref href="devplatform/helion/user/services/1.0user-provided.dita" locktitle="yes" navtitle="User-Provided Services -- HP Helion 1.0 Development Platform "/>
  <!--permalink: /automation/--> <topicref href="automation/csa.index.dita"/> 
  <!--permalink: /helion/commercial/1.1/dashboard/managing/--> <topicref href="UseCases/1.1commercial.dashboard.managing.dita"/> 
  <!--permalink: /helion/commercial/1.1/dashboard/managing/admin/--> <topicref href="UseCases/TasksforAdmins/1.1commercial.dashboard.admin.dita"/> 
- <!--permalink: /helion/commercial/1.1/dashboard/managing/aggregates/--> <topicref href="UseCases/TasksforAdmins/Domains/1.1commercial.dashboard.aggregate.managing.dita"/> 
- <!--permalink: /helion/commercial/1.1/dashboard/managing/container/create/--> <topicref href="UseCases/TasksforUsers/Object_Storage/1.1commercial.dashboard.container.create.dita"/> 
- <!--permalink: /helion/commercial/1.1/dashboard/managing/container/edit/--> <topicref href="UseCases/TasksforUsers/Object_Storage/1.1commercial.dashboard.container.edit.dita"/> 
+ <!--permalink: /helion/commercial/1.1/dashboard/managing/aggregates/--> <topicref href="UseCases/TasksforAdmins/Domains/1.1commercial.dashboard.aggregate.managing.dita"/>
+ <topicref
+  href="UseCases/TasksforUsers/Object_Storage/1.1commercial.dashboard.container.create.dita"/> 
+ <!--permalink: /helion/commercial/1.1/dashboard/managing/container/create/-->
+ <topicref href="UseCases/TasksforUsers/Object_Storage/1.1commercial.dashboard.container.edit.dita"/> 
+ <!--permalink: /helion/commercial/1.1/dashboard/managing/container/edit/--> 
  <!--permalink: /helion/commercial/1.1/dashboard/managing/container/upload/--> <topicref href="UseCases/TasksforUsers/Object_Storage/1.1commercial.dashboard.container.upload.dita"/> 
  <!--permalink: /helion/commercial/1.1/dashboard/managing/domains/--> <topicref href="UseCases/TasksforAdmins/Domains/1.1commercial.managing.domains.dita"/> 
  <!--permalink: /helion/commercial/1.1/dashboard/managing/flavors/--> <topicref href="UseCases/TasksforAdmins/Domains/1.1commercial.dashboard.domains.flavors.dita"/> 
@@ -66,10 +77,11 @@
  <!--permalink: /helion/commercial/1.1/dashboard/managing/images/details/--> <topicref href="UseCases/TasksforUsers/Images/1.1commercial.dashboard.images.details.dita"/> 
  <!--permalink: /helion/commercial/1.1/dashboard/managing/images/modify/--> <topicref href="UseCases/TasksforUsers/Images/1.1commercial.dashboard.images.modify.dita"/> 
  <!--permalink: /helion/commercial/1.1/dashboard/managing/images/protect/--> <topicref href="UseCases/TasksforUsers/Images/1.1commercial.dashboard.snapshot.protect.dita"/> 
- <!--permalink: /helion/commercial/1.1/dashboard/managing/images/public/--> <topicref href="UseCases/TasksforAdmins/Images/1.1commercial.dashboard.snapshot.public.dita"/> 
+ <!--permalink: /helion/commercial/1.1/dashboard/managing/images/public/--> <topicref href="UseCases/TasksforAdmins/Images/1.1commercial.dashboard.snapshot.public.dita"/>
+ <topicref href="UseCases/TasksforUsers/Instances/1.1commercial.dashboard.instances.reboot.dita"/> 
  <!--permalink: /helion/commercial/1.1/dashboard/managing/instances/create/--> <topicref href="UseCases/TasksforUsers/Instances/1.1commercial.dashboard.instances.create.dita"/> 
  <!--permalink: /helion/commercial/1.1/dashboard/managing/instances/pause/--> <topicref href="UseCases/TasksforUsers/Instances/1.1commercial.dashboard.instances.pause.dita"/> 
- <!--permalink: /helion/commercial/1.1/dashboard/managing/instances/reboot/--> <topicref href="UseCases/TasksforUsers/Instances/1.1commercial.dashboard.instances.reboot.dita"/> 
+ <!--permalink: /helion/commercial/1.1/dashboard/managing/instances/reboot/--> 
  <!--permalink: /helion/commercial/1.1/dashboard/managing/instances/rebuild/--> <topicref href="UseCases/TasksforUsers/Instances/1.1commercial.dashboard.instances.rebuild.dita"/> 
  <!--permalink: /helion/commercial/1.1/dashboard/managing/instances/suspend/--> <topicref href="UseCases/TasksforUsers/Instances/1.1commercial.dashboard.instances.suspend.dita"/> 
  <!--permalink: /helion/commercial/1.1/dashboard/managing/instances/terminate/--> <topicref href="UseCases/TasksforUsers/Instances/1.1commercial.dashboard.instances.terminate.dita"/> 
