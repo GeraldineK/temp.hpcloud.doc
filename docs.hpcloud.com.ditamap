@@ -44,10 +44,9 @@
   navtitle="Memcached Service -- HP Helion 1.0 Development Platform "/>
  <!--permalink: /als/v1/admin/server/logging/-->
  <!--permalink: /als/v1/admin/server/operations/--> <topicref href="devplatform/helion/admin/server/1.0operations.dita" locktitle="yes"
-  navtitle="Common Server Operations -- HP Helion 1.0 Development Platform ">
-  <topicref href="devplatform/helion/admin/server/1.0docker.dita" locktitle="yes"
-   navtitle="Docker and Fence -- HP Helion 1.0 Development Platform "/>
- </topicref>
+  navtitle="Common Server Operations -- HP Helion 1.0 Development Platform "/>
+ <topicref href="devplatform/helion/admin/server/1.0docker.dita" locktitle="yes"
+  navtitle="Docker and Fence -- HP Helion 1.0 Development Platform "/>
  <!--permalink: /als/v1/admin/server/router/--> <topicref href="devplatform/helion/admin/server/1.0router.dita" locktitle="yes" navtitle="ALS Router -- HP Helion 1.0 Development Platform "/>
  <!--permalink: /als/v1/admin/server/upgrade/--> <topicref href="devplatform/helion/admin/server/1.0upgrade.dita" locktitle="yes" navtitle="Upgrading Application Lifecycle Service -- HP Helion 1.0 Development Platform "/>
  <!--permalink: /als/v1/user/client/--> <topicref href="devplatform/helion/user/client/1.0index.dita" locktitle="yes" navtitle="HP Helion Application Lifecycle Service Client -- HP Helion 1.0 Development Platform "/>
@@ -72,24 +71,30 @@
  <!--permalink: /helion/commercial/1.1/dashboard/managing/flavors/--> <topicref href="UseCases/TasksforAdmins/Domains/1.1commercial.dashboard.domains.flavors.dita"/> 
  <!--permalink: /helion/commercial/1.1/dashboard/managing/flavors/access/--> <topicref href="UseCases/TasksforAdmins/Domains/1.1commercial.dashboard.flavors.access.dita"/> 
  <!--permalink: /helion/commercial/1.1/dashboard/managing/images/--> <topicref href="UseCases/TasksforUsers/Images/1.1commercial.managing.images.dita"/> 
- <!--permalink: /helion/commercial/1.1/dashboard/managing/images/create/--> <topicref href="UseCases/TasksforUsers/Images/1.1commercial.dashboard.images.create.dita"/> 
+ <!--permalink: /helion/commercial/1.1/dashboard/managing/images/create/--> <topicref href="UseCases/TasksforUsers/Images/1.1commercial.dashboard.images.create.dita">
+  <topicref href="UseCases/TasksforUsers/Images/1.1commercial.dashboard.images.details.dita"/>
+ </topicref>
+ <topicref href="UseCases/TasksforUsers/Images/1.1commercial.dashboard.images.modify.dita"/> 
  <!--permalink: /helion/commercial/1.1/dashboard/managing/images/delete/--> <topicref href="UseCases/TasksforUsers/Images/1.1commercial.dashboard.images.delete.dita"/> 
- <!--permalink: /helion/commercial/1.1/dashboard/managing/images/details/--> <topicref href="UseCases/TasksforUsers/Images/1.1commercial.dashboard.images.details.dita"/> 
- <!--permalink: /helion/commercial/1.1/dashboard/managing/images/modify/--> <topicref href="UseCases/TasksforUsers/Images/1.1commercial.dashboard.images.modify.dita"/> 
+ <!--permalink: /helion/commercial/1.1/dashboard/managing/images/details/--> 
+ <!--permalink: /helion/commercial/1.1/dashboard/managing/images/modify/--> 
  <!--permalink: /helion/commercial/1.1/dashboard/managing/images/protect/--> <topicref href="UseCases/TasksforUsers/Images/1.1commercial.dashboard.snapshot.protect.dita"/> 
  <!--permalink: /helion/commercial/1.1/dashboard/managing/images/public/--> <topicref href="UseCases/TasksforAdmins/Images/1.1commercial.dashboard.snapshot.public.dita"/>
  <topicref href="UseCases/TasksforUsers/Instances/1.1commercial.dashboard.instances.reboot.dita"/> 
- <!--permalink: /helion/commercial/1.1/dashboard/managing/instances/create/--> <topicref href="UseCases/TasksforUsers/Instances/1.1commercial.dashboard.instances.create.dita"/> 
+ <!--permalink: /helion/commercial/1.1/dashboard/managing/instances/create/--> <topicref href="UseCases/TasksforUsers/Instances/1.1commercial.dashboard.instances.create.dita"/>
+ <topicref href="UseCases/TasksforUsers/Instances/1.1commercial.dashboard.instances.rebuild.dita"/> 
  <!--permalink: /helion/commercial/1.1/dashboard/managing/instances/pause/--> <topicref href="UseCases/TasksforUsers/Instances/1.1commercial.dashboard.instances.pause.dita"/> 
  <!--permalink: /helion/commercial/1.1/dashboard/managing/instances/reboot/--> 
- <!--permalink: /helion/commercial/1.1/dashboard/managing/instances/rebuild/--> <topicref href="UseCases/TasksforUsers/Instances/1.1commercial.dashboard.instances.rebuild.dita"/> 
+ <!--permalink: /helion/commercial/1.1/dashboard/managing/instances/rebuild/--> 
  <!--permalink: /helion/commercial/1.1/dashboard/managing/instances/suspend/--> <topicref href="UseCases/TasksforUsers/Instances/1.1commercial.dashboard.instances.suspend.dita"/> 
- <!--permalink: /helion/commercial/1.1/dashboard/managing/instances/terminate/--> <topicref href="UseCases/TasksforUsers/Instances/1.1commercial.dashboard.instances.terminate.dita"/> 
+ <!--permalink: /helion/commercial/1.1/dashboard/managing/instances/terminate/--> <topicref href="UseCases/TasksforUsers/Instances/1.1commercial.dashboard.instances.terminate.dita"/>
+ <topicref href="UseCases/TasksforUsers/IP_Addresses/1.1commercial.managing.ipaddress.dita"/> 
  <!--permalink: /helion/commercial/1.1/dashboard/managing/instances/users/--> <topicref href="UseCases/TasksforUsers/Instances/1.1commercial.managing.instances.users.dita"/> 
- <!--permalink: /helion/commercial/1.1/dashboard/managing/ipaddresses/--> <topicref href="UseCases/TasksforUsers/IP_Addresses/1.1commercial.managing.ipaddress.dita"/> 
- <!--permalink: /helion/commercial/1.1/dashboard/managing/ipaddresses/associate/--> <topicref href="UseCases/TasksforUsers/IP_Addresses/1.1commercial.dashboard.ipaddress.dita"/> 
+ <!--permalink: /helion/commercial/1.1/dashboard/managing/ipaddresses/--> 
+ <!--permalink: /helion/commercial/1.1/dashboard/managing/ipaddresses/associate/--> <topicref href="UseCases/TasksforUsers/IP_Addresses/1.1commercial.dashboard.ipaddress.dita"/>
+ <topicref href="UseCases/TasksforUsers/Networks/1.1commercial.dashboard.network.disable.dita"/> 
  <!--permalink: /helion/commercial/1.1/dashboard/managing/network/create/--> <topicref href="UseCases/TasksforUsers/Networks/1.1commercial.dashboard.network.create.dita"/> 
- <!--permalink: /helion/commercial/1.1/dashboard/managing/network/enable/--> <topicref href="UseCases/TasksforUsers/Networks/1.1commercial.dashboard.network.disable.dita"/> 
+ <!--permalink: /helion/commercial/1.1/dashboard/managing/network/enable/--> 
  <!--permalink: /helion/commercial/1.1/dashboard/managing/network/external/create/--> <topicref href="UseCases/TasksforAdmins/Network/1.1commercial.dashboard.network.admin.create.dita"/> 
  <!--permalink: /helion/commercial/1.1/dashboard/managing/network/ports/--> <topicref href="UseCases/TasksforAdmins/Network/1.1commercial.dashboard.network.ports.dita"/> 
  <!--permalink: /helion/commercial/1.1/dashboard/managing/network/shared/--> <topicref href="UseCases/TasksforAdmins/Network/1.1commercial.dashboard.network.shared.dita"/> 
@@ -336,9 +341,11 @@
  <!--permalink: /helion/openstack/carrier/install/hlm/--> <topicref href="commercial/GA1/CarrierGrade/InstallVirtual/carrier-grade-install-hlm.dita"/> 
  <!--permalink: /helion/openstack/carrier/install/network/--> <topicref href="commercial/GA1/CarrierGrade/InstallVirtual/carrier-grade-install-network.dita"/> 
  <!--permalink: /helion/openstack/carrier/install/ntp/--> <topicref href="commercial/GA1/CarrierGrade/InstallVirtual/carrier-grade-install-NTP.dita"/> 
- <!--permalink: /helion/openstack/carrier/install/overview/--> <topicref href="commercial/GA1/CarrierGrade/InstallVirtual/carrier-grade-install-overview.dita"/> 
+ <!--permalink: /helion/openstack/carrier/install/overview/--> <topicref href="commercial/GA1/CarrierGrade/InstallVirtual/carrier-grade-install-overview.dita"/>
+ <topicref
+  href="commercial/GA1/CarrierGrade/InstallVirtual/carrier-grade-install-prereqs-network.dita"/> 
  <!--permalink: /helion/openstack/carrier/install/post-esx/--> <topicref href="commercial/GA1/CarrierGrade/InstallVirtual/carrier-grade-install-post.dita"/> 
- <!--permalink: /helion/openstack/carrier/install/prereqs/network/--> <topicref href="commercial/GA1/CarrierGrade/InstallVirtual/carrier-grade-install-prereqs-network.dita"/> 
+ <!--permalink: /helion/openstack/carrier/install/prereqs/network/--> 
  <!--permalink: /helion/openstack/carrier/install/virt-router/--> <topicref href="commercial/GA1/CarrierGrade/InstallVirtual/carrier-grade-install-virtrouter.dita"/> 
  <!--permalink: /helion/openstack/carrier/install/vsa/--> <topicref href="commercial/GA1/CarrierGrade/Admin_Guide/VSA/carrier.install-GA-vsa.dita"/> 
  <!--permalink: /helion/openstack/carrier/install/vsa/add-mgmt/--> <topicref href="commercial/GA1/CarrierGrade/Admin_Guide/VSA/carrier.install-add-mgmt-group.dita"/> 
